@@ -1,0 +1,138 @@
+.wrapper {
+    display: flex;
+}
+.header {
+    background-color: white
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    height: 100vh;
+    background-color: #A8A;
+    position: fixed;
+    top: 0px;
+    text-align: center;
+    font-family: monospace;
+}
+
+#company-logo {
+    height: 160px;
+    width: 160px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 55px;
+    background: url(../brand/logo-3.jpg);
+    background-size: contain;
+    box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.05);
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#company-name {
+    font-family: 'Mina', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: -25px;
+}
+
+.adsumo__tab {
+    height: 34px;
+    background-color: #363636;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding-top: 7px;
+    font-family: 'Mina';
+}
+
+.icon__container, .tab__name {
+   display: inline-block;
+    color: white;
+}
+
+.icon__container {
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+    margin-left: 39px
+}
+
+.icon__container i {
+    
+}
+
+.tab__name {
+    float: left;
+    font-size: 14px;
+}
+
+
+/* content */
+.page-header {
+    background-color: pink;
+}
+
+.tab__content {
+    border-top-left-radius: 5px;
+    background-color: #f5f7fb;
+    position: relative;
+    width: calc(100% - 250px);
+    left: 250px;
+    padding-top: 35px;
+}
+
+.tab__content .container {
+    padding: 0 50px;
+}
+
+#admin-ctrl-dropdown {
+    top: 40px;
+}
+
+
+
+
+/* styles that overwrite main css */
+
+.header {
+
+}
+
+.row {
+    margin-top: 30px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
