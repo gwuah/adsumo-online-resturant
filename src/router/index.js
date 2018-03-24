@@ -4,6 +4,7 @@ import Router from 'vue-router';
 // import sidebar
 import Sidebar from '../components/Sidebar'
 import Navbar from "../components/Navbar"
+import OrderCard from "../components/OrderCard"
 
 // local imports
 import Overview from '../pages/Overview';
@@ -41,15 +42,18 @@ const routes = [
     component: Settings
   },
   {
-    path: '/logut',
+    path: '/logout',
     name: 'Logout',
     component: Logout
   }
 ]
 
-// register as a global component
+// register global component
 Vue.component("Sidebar", Sidebar)
 Vue.component("Navbar", Navbar)
+Vue.component("OrderCard", OrderCard)
+
+
 Vue.use(Router)
 
 export default new Router({

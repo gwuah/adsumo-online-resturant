@@ -5,11 +5,20 @@
     background-color: white
 }
 
+#navBrand {
+    position: relative;
+    z-index: 1111111111;
+    left: 200px;
+    top: 10px;
+    font-size: 20px;
+    font-family: Roboto;
+}
+
 #sidebar {
     min-width: 250px;
     max-width: 250px;
     height: 100vh;
-    background-color: #A8A;
+    background-color: #323552;
     position: fixed;
     top: 0px;
     text-align: center;
@@ -26,7 +35,7 @@
     top: 55px;
     background: url(../brand/logo-3.jpg);
     background-size: contain;
-    box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.05);
+    /* box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.05); */
     position: relative;
     margin-bottom: 100px;
 }
@@ -37,17 +46,22 @@
     font-weight: bold;
     position: relative;
     top: -25px;
+    color: white !important;
 }
 
 .adsumo__tab {
     height: 34px;
-    background-color: #363636;
+    /* background-color: #363636; */
     width: 70%;
     margin: 0 auto;
     margin-bottom: 15px;
     border-radius: 5px;
     padding-top: 7px;
     font-family: 'Mina';
+}
+
+.adsumo__tab:hover {
+    background-color: #363636;
 }
 
 .icon__container, .tab__name {
@@ -71,6 +85,10 @@
     font-size: 14px;
 }
 
+.active___tab {
+    background-color: black;
+}
+
 
 /* content */
 .page-header {
@@ -79,7 +97,7 @@
 
 .tab__content {
     border-top-left-radius: 5px;
-    background-color: #f5f7fb;
+    background-color: #FAFAFC;
     position: relative;
     width: calc(100% - 250px);
     left: 250px;
@@ -94,6 +112,19 @@
     top: 40px;
 }
 
+.staticon {
+    margin-top: 8px !important;
+}
+
+.staticon i {
+    font-size: 50px;
+}
+
+.delim {
+    margin-top: 10px !important;
+    margin-bottom: 3px !important;
+}
+
 
 
 
@@ -104,7 +135,58 @@
 }
 
 .row {
-    margin-top: 30px !important;
+    margin-top: 25px !important;
+}
+.card {
+    font-family: Roboto;
+}
+
+.card-name {
+    font-family: Roboto;
+}
+
+.card__button {
+    margin: 0 5px;
+}
+
+.tablet {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #323552;
+    padding: 5px;
+    color:white;
+    box-shadow: 0px 0px 2px black;
+    margin-bottom: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.tablet + p {
+    box-shadow: 0px 0px 2px black;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fc3;
+    color: black;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    font-weight: bold;
+}
+.list-group-item {
+    font-size: 16px
+}
+.orderInfo {
+    border-top: 1px solid rgba(0, 40, 100, 0.12);
+}
+
+.toggla {
+    font-size: 20px;
+    margin-top: -20px;
+    margin-right: 10px;
+}
+
+.hide {
+    display: none;
 }
 
 

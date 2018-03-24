@@ -5,7 +5,8 @@
         <div class="container">
             <div class="navbar p-0">
                 <a class="navbar-brand" href="./index.html">
-                    <!--                <img src="./assets/brand/tabler.svg" class="navbar-brand-img" alt="tabler.io">-->
+                    <!-- <img src="./static/images/admin.jpeg" class="navbar-brand-img" alt="tabler.io"> -->
+                    <h1 id="navBrand"><i class="fa fa-dashboard"></i> Dashboard </h1>
                 </a>
 
 
