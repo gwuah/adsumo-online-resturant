@@ -5,6 +5,7 @@ import Router from 'vue-router';
 import Sidebar from '../components/Sidebar'
 import Navbar from "../components/Navbar"
 import OrderCard from "../components/OrderCard"
+import UserRow from "../components/UserRow"
 
 // local imports
 import Overview from '../pages/Overview';
@@ -52,6 +53,8 @@ const routes = [
 Vue.component("Sidebar", Sidebar)
 Vue.component("Navbar", Navbar)
 Vue.component("OrderCard", OrderCard)
+Vue.component("UserRow", UserRow)
+
 
 
 Vue.use(Router)
